@@ -1,10 +1,10 @@
-package com.task.efishery.tryandroidmvp;
+package com.task.efishery.tryandroidmvp.views;
 
 /**
  * Created by syauqi on 07/09/17.
  */
 
-public interface MainContract {
+public interface LoginContract {
     interface LoginView {
         void loginSuccess(String title);
         void logout(String title);

@@ -1,15 +1,18 @@
-package com.task.efishery.tryandroidmvp;
+package com.task.efishery.tryandroidmvp.presenters;
+
+import com.task.efishery.tryandroidmvp.views.LoginContract;
+import com.task.efishery.tryandroidmvp.models.LoginManager;
 
 /**
  * Created by syauqi on 07/09/17.
  */
 
-public class MainPresenter implements MainContract.Presenter {
-    private MainContract.LoginView mView;
+public class LoginPresenter implements LoginContract.Presenter {
+    private LoginContract.LoginView mView;
     private boolean isLoggedIn;
     private LoginManager mLoginManager;
 
-    public MainPresenter(MainContract.LoginView view){
+    public LoginPresenter(LoginContract.LoginView view){
         mView = view;
         mLoginManager = LoginManager.getInstance();
     }

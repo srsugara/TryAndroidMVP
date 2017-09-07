@@ -1,4 +1,4 @@
-package com.task.efishery.tryandroidmvp;
+package com.task.efishery.tryandroidmvp.models;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
